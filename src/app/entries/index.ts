@@ -1,0 +1,3 @@
+// export barrel which contains all of the dependancies needed wrapped into one place
+export * from './entry-list/entry-list.component'
+export * from './entry/entry.component'
