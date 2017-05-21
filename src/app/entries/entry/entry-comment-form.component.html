@@ -1,0 +1,14 @@
+<form (submit)="onSubmit()">
+
+    <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="enter name" [(ngModel)] = "name">  
+    </div>
+    <div>
+        <label for="comment"Comment></label>
+        <textarea rows="" cols="" name="comment" [(ngModel)] = "comment"></textarea>
+    </div>
+    <div>
+        <button type="Submit">Submit</button>
+    </div>
+</form>
